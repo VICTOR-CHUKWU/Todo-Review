@@ -25,5 +25,4 @@ function checkTodos(e) {
     editLocal(id);
   }
 }
-
 export default checkTodos;
