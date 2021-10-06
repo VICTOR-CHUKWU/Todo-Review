@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <title>Todo list</title>
+</head>
+<body>
+    <main class="main">
+        <header class="header">
+            <h2>Today's To Do</h2>
+        </header>
+        <div class="todo-container">
+            <form class="todo">
+                <input type="text" placeholder="Add to your list" class="add-todo">
+               <div class="mr">
+                <button type="submit" class="btn">
+                    <i class="fas fa-level-down-alt enter"></i>
+                </button>
+                <button class="btn edit-cancel hide">
+                    <i class="fa fa-times"></i>
+                </button>
+               </div>
+            </form>
+            <!-- <form class="todoedit hide-form">
+                <input type="text" placeholder="Add to your list" class="add-todo-edit ">
+                <button type="submit" class="btn"><i class="fas fa-level-down-alt enter"></i></button>
+            </form> -->
+
+            <div class="todo-list">
+                <div class="todo-list-inner"></div>
+                
+            </div>
+        </div>
+        <div class="clear-completed">clear all completed</div>
+    </main>
+</body>
+</html>
