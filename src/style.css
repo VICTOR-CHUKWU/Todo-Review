@@ -1,0 +1,117 @@
+body {
+  background-color: rgb(248, 237, 237);
+  margin: 0;
+  padding: 0;
+  font-size: 1rem;
+  color: rgb(156, 154, 154);
+}
+
+.main {
+  width: 60%;
+  margin: 2rem auto;
+  background: white;
+  box-shadow: 5px 10px #e5e2e2;
+  padding-top: 2rem;
+}
+
+h2 {
+  text-align: left;
+  margin-bottom: 1rem;
+  padding-left: 1rem;
+  padding-bottom: 1.2rem;
+  border-bottom: 1px solid rgb(238, 232, 232);
+}
+
+.todo,
+.todoedit {
+  width: 100%;
+  padding-bottom: 1.2rem;
+  border-bottom: 1px solid rgb(238, 232, 232);
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.add-todo,
+.add-todo-edit {
+  width: 70%;
+  height: 100%;
+  margin: 1rem 1rem;
+  background: transparent;
+  color: rgb(139, 135, 135);
+  border: none;
+  outline: none;
+  font-size: 1rem;
+  line-height: 30px;
+  padding-bottom: 1rem;
+}
+
+.show {
+  display: inline !important;
+}
+
+.mr {
+  margin-right: 0.5rem;
+}
+
+.hide {
+  display: none;
+}
+
+.enter {
+  margin-right: 0.5rem;
+}
+
+.d-flex {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  margin-top: 0.6rem;
+  padding-bottom: 1.2rem;
+  padding-left: 1rem;
+  border-bottom: 1px solid rgb(238, 232, 232);
+}
+
+.todo-list-inner {
+  width: 100%;
+}
+
+.completed {
+  text-decoration: line-through;
+}
+
+.btn {
+  background: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.label {
+  font-size: 1.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.icon {
+  margin-right: 0.5rem;
+  margin-left: 1rem;
+}
+
+.checkbox {
+  width: 20px;
+  height: 20px;
+  margin-right: 0.8rem;
+}
+
+.clear-completed {
+  text-align: center;
+  padding: 0.5rem;
+  background: rgb(243, 241, 241);
+  height: 40px;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
