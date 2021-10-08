@@ -99,5 +99,4 @@ editCancel.addEventListener('submit', () => {
 displayTodos.addEventListener('click', checkTodos);
 
 clear.addEventListener('click', clearCompletedTodo);
-
 document.addEventListener('DOMContentLoaded', getTodos);
